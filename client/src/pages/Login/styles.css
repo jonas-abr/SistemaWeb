@@ -30,4 +30,62 @@
     font-size: 32px;
     margin-bottom: 32px;
 }
+/* Ajustando o Responsivo */
 
+@media (max-width: 1210px)
+{
+  img{
+    display: none;
+   }
+   .login-container{
+       margin-left: 50%;
+       margin-right: 35%;
+   }
+   .login-container section.form form h1{
+    margin-left: 28px;
+}
+}
+@media (max-width: 920px)
+{
+    .login-container{
+        margin-left: 40%;
+        margin-right: 30%;
+    }
+}
+@media (max-width: 768px)
+{
+    .login-container{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .login-container section.form form h1{
+        font-size: 25px;
+    }
+    img{
+        margin-left: 25%;
+    }
+}
+@media (max-width: 590px)
+{
+    .login-container{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media (max-width: 512px)
+{
+    .login-container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 440px)
+{
+    .login-container section.form form h1{
+        font-size: 25px;
+    }
+    form input {
+        width: 70%;
+    }
+   
+}
